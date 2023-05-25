@@ -1,0 +1,38 @@
+:root { 
+    
+   --font: blinkmacsystemfont, -apple-system, "segoe ui", "Roboto", "Ubuntu", "canterell", "fira Sans",
+   "Droid Sans", "Helvetica Neu Helvetica", "Arial", sans-serif;   
+}
+
+/* * { outline: 1px solid red;} */
+
+body {
+    font-family: var(--font);
+    
+}
+  
+
+header, section {
+    width:  960px;
+    margin: 0 auto;
+    
+}
+
+header {
+    display: flex;
+}
+
+img {
+    width: 250px;
+    height: 20pc;
+    margin-right: 16px;
+
+}
+
+ul {
+    list-style-type: disc;
+}
+
+article{
+    font-variant-position: sub;
+}
